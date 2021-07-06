@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.js" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/5548f5ed00.js" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="https://unpkg.com/vis-network/standalone/umd/vis-network.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <script src="heap.js"></script>
+    <script src="script.js" type="module"></script>
+</head>
+
+<body>
+    <div class="supercontainer">
+        <nav id="heading" class="navbar navbar-light ">
+            <h1>
+                Bill Split
+            </h1>
+        </nav>
+        <div class="container">
+            <form>
+                <div class="col-auto">
+                    <label for="exampleInputEmail1" class="form-label" style="margin-left: 5%;"></label>Enter no of
+                    friends</label>
+                    <input type="number" class="form-control" id="nof" aria-describedby="emailHelp"
+                        style="width: 90%; margin: auto;">
+                </div>
+                <button type="button" class="btn btn-primary" id="addfriend">Add Friends</button>
+                <br>
+                <div class="friendslist" id="friendslist">
+                    <!-- <div class="col-auto">
+                    <div class="row">
+                        <div class="col">
+                            <label for="exampleInputEmail1" class="form-label">Friend 2 Name</label>
+                            <input type="text" class="form-control" id="f2name" aria-label="First name">
+                        </div>
+                        <div class="col">
+                            <label for="exampleInputEmail1" class="form-label">amt paid</label>
+                            <input type="number" class="form-control" id="f2amt" aria-label="Last name">
+                        </div>
+                    </div>
+                </div> -->
+                </div>
+            </form>
+        </div>
+
+        <div>
+            <button type="button" class="btn btn-success" id="solve">Split bill</button>
+        </div>
+        <div id="container2">
+            <span id="temptext" style="width: 100%; text-align: center; font-size: x-large">
+                Click on Split to get your bill split !!
+            </span>
+            <div id="mynetwork2" style="display: none"></div>
+        </div>
+        <br>
+    </div>
+</body>
+
+</html>

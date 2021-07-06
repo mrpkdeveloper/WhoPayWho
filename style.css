@@ -1,0 +1,95 @@
+html,
+body {
+  height: 95%;
+  background-color: whitesmoke;
+}
+
+#container2 {
+  margin: 4% auto;
+  width: 90%;
+  height: 20rem;
+  border: 1px solid lightgray;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  display: none;
+}
+
+#mynetwork2 {
+  width: 100%;
+  height: 100%;
+  background-color: whitesmoke;
+  border-radius: 20px;
+}
+
+#container {
+  width: 50%;
+  height: 70%;
+  background-color: white;
+  display: flex;
+  margin: 0 auto;
+}
+
+#generate-graph {
+  margin: auto;
+  display: block;
+}
+
+#solve,
+#addfriend {
+  width: 40%;
+  margin: auto;
+  margin-top: 4%;
+  display: block;
+  white-space: normal;
+  word-wrap: break-word;
+}
+
+#solve {
+  display: none;
+}
+
+#heading {
+  width: 60%;
+  margin: auto;
+  margin-top: 3%;
+  display: block;
+  text-align: center;
+  margin-bottom: 5%;
+  background-color: whitesmoke;
+  color: black;
+  border-radius: 5%;
+
+  /* border: 2px solid black; */
+}
+
+.container {
+  width: 90%;
+}
+
+.friendslist {
+  margin: auto;
+  padding: auto;
+  width: 95%;
+  display: none;
+}
+
+.supercontainer {
+  padding-top: 2%;
+  width: 80%;
+  height: auto;
+  margin: auto;
+  /* background-color: white;*/
+  background: linear-gradient(to bottom, #6bffc8 0%, #42c8cb 100%);
+  border-radius: 20px;
+}
+
+.inputname,
+.inputamt {
+  width: 90%;
+  margin: auto;
+}
+
+.col {
+  padding: 0px;
+}
