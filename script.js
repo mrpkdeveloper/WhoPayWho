@@ -66,6 +66,7 @@ onload = function () {
     div3.className = "col";
     var inputname = document.createElement("input");
     inputname.className = "form-control inputname";
+    inputname.autocomplete = "off";
     inputname.id = `fname${i}`;
     inputname.placeholder = `Friend ${i + 1} `;
     div3.appendChild(inputname);
@@ -74,6 +75,7 @@ onload = function () {
     div4.className = "col";
     var inputamt = document.createElement("input");
     inputamt.className = "form-control inputamt";
+    inputamt.autocomplete = "off";
     inputamt.id = `famt${i}`;
     inputamt.placeholder = "amt paid";
     div4.appendChild(inputamt);
